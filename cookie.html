@@ -22,9 +22,13 @@
     table{width:100%;border-collapse:collapse;margin:1.2em 0;font-size:.88rem}
     th{background:var(--verde3);color:#fff;font-family:var(--font-h);text-transform:uppercase;letter-spacing:.05em;padding:.7em 1em;text-align:left;border:1px solid var(--bordo)}
     td{padding:.65em 1em;border:1px solid var(--bordo);vertical-align:top}
+    code{font-size:.92em;background:rgba(26,122,46,.08);padding:.1em .35em;border-radius:3px}
+    .wrap-tab{overflow-x:auto}
     .badge{display:inline-block;font-size:.75rem;font-family:var(--font-h);text-transform:uppercase;letter-spacing:.06em;padding:.2em .6em;border-radius:3px;font-weight:600}
     .badge-green{background:rgba(26,122,46,.12);color:var(--verde2);border:1px solid rgba(26,122,46,.25)}
     .badge-yellow{background:rgba(217,119,6,.1);color:#92400e;border:1px solid rgba(217,119,6,.25)}
+    .azione{display:inline-block;background:var(--verde);color:#fff;border:none;border-radius:4px;padding:.7em 1.4em;font-family:var(--font-b);font-size:.95rem;font-weight:600;cursor:pointer}
+    .azione:hover{background:var(--verde2)}
     footer{background:var(--verde3);padding:1.5rem 0;font-size:.82rem;color:rgba(255,255,255,.5);text-align:center}
     footer a{color:rgba(255,255,255,.5)}footer a:hover{color:#fff}
   </style>
@@ -32,32 +36,73 @@
   <script src="/gtag.js"></script>
 </head>
 <body>
-<header><div class="nav"><a href="/"><img src="logo.png" alt="Eurospazzacamino" class="logo-img"/></a><a href="/" style="color:rgba(255,255,255,.7);font-size:.9rem;">← Torna al sito</a></div></header>
+<header><div class="nav"><a href="/"><img src="logo.png" alt="Eurospazzacamino" class="logo-img"/></a><a href="/" style="color:rgba(255,255,255,.7);font-size:.9rem;">&larr; Torna al sito</a></div></header>
 <div class="container">
   <h1>Cookie Policy</h1>
-  <p class="data-agg">Ultimo aggiornamento: marzo 2025 · Conforme alle Linee Guida Cookie del Garante del 10 giugno 2021</p>
-  <h2>1. Cosa sono i cookie</h2>
-  <p>I cookie sono piccoli file di testo salvati sul dispositivo durante la navigazione. Permettono al sito di memorizzare preferenze e riconoscere il dispositivo alle visite successive.</p>
-  <h2>2. Cookie utilizzati</h2>
+  <p class="data-agg">Ultimo aggiornamento: 19 agosto 2026 &middot; Conforme al Regolamento UE 2016/679 (GDPR), all'art. 122 del D.lgs. 196/2003 e alle Linee Guida Cookie del Garante Privacy del 10 giugno 2021</p>
+
+  <h2>1. Titolare del trattamento</h2>
+  <p><strong>Verde Oliva S.r.l.s.</strong> &ndash; P.IVA IT10927440965 &ndash; marchio Eurospazzacamino.<br/>
+  Email: <a href="mailto:eurospazzacaminolodi@gmail.com">eurospazzacaminolodi@gmail.com</a> &middot; Tel. <a href="tel:+393336453219">333 645 3219</a></p>
+
+  <h2>2. Cosa sono i cookie</h2>
+  <p>I cookie sono piccoli file di testo salvati sul dispositivo durante la navigazione. Permettono al sito di memorizzare preferenze e riconoscere il dispositivo alle visite successive. Insieme ai cookie il sito utilizza tecnologie equivalenti (localStorage), soggette alle stesse regole.</p>
+
+  <h2>3. Cookie tecnici (necessari)</h2>
+  <p>Servono al funzionamento del sito e non richiedono consenso ai sensi dell'art. 122, comma 1, del Codice privacy.</p>
+  <div class="wrap-tab">
   <table>
-    <tr><th>Nome</th><th>Tipo</th><th>Durata</th><th>Finalità</th><th>Consenso</th></tr>
-    <tr><td><code>cookie_consent</code></td><td>Tecnico (localStorage)</td><td>Persistente</td><td>Memorizza la scelta dell'utente sul banner</td><td><span class="badge badge-green">Non richiesto</span></td></tr>
-    <tr><td><code>_ga</code></td><td>Analitico (Google Analytics)</td><td>2 anni</td><td>Statistiche aggregate anonime</td><td><span class="badge badge-yellow">Richiesto</span></td></tr>
-    <tr><td><code>_ga_*</code></td><td>Analitico (Google Analytics)</td><td>2 anni</td><td>Stato sessione Analytics</td><td><span class="badge badge-yellow">Richiesto</span></td></tr>
+    <tr><th>Nome</th><th>Tipo</th><th>Titolare</th><th>Durata</th><th>Finalit&agrave;</th></tr>
+    <tr><td><code>cookie_consent</code></td><td>localStorage</td><td>Verde Oliva S.r.l.s.</td><td>Persistente, fino a cancellazione</td><td>Memorizza la scelta espressa sul banner cookie</td></tr>
   </table>
-  <p>I cookie analitici sono attivati <strong>solo previo consenso esplicito</strong> tramite il banner.</p>
-  <h2>3. Google Fonts</h2>
-  <p>Il sito carica font da Google Fonts (fonts.googleapis.com), che può trasmettere l'indirizzo IP a Google LLC. Per info: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
-  <h2>4. Come gestire i cookie</h2>
-  <p>Modifica le preferenze tramite il banner sul sito. Puoi anche gestirli dal browser:</p>
+  </div>
+
+  <h2>4. Cookie di marketing &ndash; Google Ads</h2>
+  <p>Il sito utilizza <strong>Google Ads</strong> (ID conversione AW-959116144) per misurare quante richieste di contatto arrivano dagli annunci pubblicitari. Questi cookie sono <strong>installati solo dopo il consenso esplicito</strong> prestato tramite il banner: fino a quel momento il sistema di <em>Consent Mode v2</em> di Google mantiene lo stato su &laquo;negato&raquo; e nessun cookie pubblicitario viene scritto.</p>
+  <div class="wrap-tab">
+  <table>
+    <tr><th>Nome</th><th>Tipo</th><th>Titolare</th><th>Durata</th><th>Finalit&agrave;</th><th>Consenso</th></tr>
+    <tr><td><code>_gcl_au</code></td><td>Prima parte</td><td>Google Ireland Ltd</td><td>90 giorni</td><td>Attribuzione delle conversioni agli annunci Google Ads</td><td><span class="badge badge-yellow">Richiesto</span></td></tr>
+    <tr><td><code>_gcl_aw</code>, <code>_gcl_dc</code></td><td>Prima parte</td><td>Google Ireland Ltd</td><td>90 giorni</td><td>Memorizzano il clic sull'annuncio che ha portato l'utente al sito</td><td><span class="badge badge-yellow">Richiesto</span></td></tr>
+    <tr><td><code>IDE</code>, <code>test_cookie</code><br/><span style="color:var(--grigio);font-size:.9em">(dominio doubleclick.net)</span></td><td>Terza parte</td><td>Google Ireland Ltd</td><td>13 mesi / 15 minuti</td><td>Possono essere impostati da Google per misurare l'efficacia degli annunci e verificare il supporto dei cookie da parte del browser</td><td><span class="badge badge-yellow">Richiesto</span></td></tr>
+  </table>
+  </div>
+  <p>Rispetto a questi trattamenti Google Ireland Ltd opera come <strong>titolare autonomo</strong> per le proprie finalit&agrave;. Informativa di Google: <a href="https://business.safety.google/privacy/" target="_blank" rel="noopener">business.safety.google/privacy</a> &middot; Modalit&agrave; d'uso dei dati: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+
+  <h2>5. Base giuridica</h2>
+  <p>Per i cookie tecnici: legittimo interesse alla corretta erogazione del servizio richiesto (art. 122 c. 1 Codice privacy). Per i cookie di marketing: <strong>consenso dell'interessato</strong> (art. 6, par. 1, lett. a GDPR e art. 122 c. 1 Codice privacy), libero, specifico e revocabile in ogni momento con la stessa facilit&agrave; con cui &egrave; stato prestato.</p>
+
+  <h2>6. Trasferimento dei dati fuori dall'Unione Europea</h2>
+  <p>I dati raccolti dai cookie di marketing possono essere trasferiti a Google LLC negli Stati Uniti. Il trasferimento avviene sulla base della <strong>decisione di adeguatezza della Commissione europea del 10 luglio 2023</strong> (EU&ndash;US Data Privacy Framework, cui Google LLC aderisce) e, in via ulteriore, delle Clausole Contrattuali Tipo approvate dalla Commissione.</p>
+
+  <h2>7. Google Fonts</h2>
+  <p>Il sito carica i caratteri tipografici da Google Fonts (fonts.googleapis.com). La richiesta comporta la trasmissione dell'indirizzo IP a Google. Non vengono installati cookie per questa finalit&agrave;.</p>
+
+  <h2>8. Come revocare o modificare il consenso</h2>
+  <p>Puoi riaprire il banner e cambiare la tua scelta in qualsiasi momento:</p>
+  <p><button type="button" class="azione" id="riapri-preferenze">Modifica le preferenze cookie</button></p>
+  <p>Puoi inoltre disattivare la personalizzazione degli annunci direttamente presso Google su <a href="https://myadcenter.google.com" target="_blank" rel="noopener">myadcenter.google.com</a>, oppure gestire ed eliminare i cookie dal tuo browser:</p>
   <ul>
     <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Google Chrome</a></li>
     <li><a href="https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox" target="_blank" rel="noopener">Mozilla Firefox</a></li>
     <li><a href="https://support.apple.com/it-it/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Apple Safari</a></li>
     <li><a href="https://support.microsoft.com/it-it/microsoft-edge/eliminare-i-cookie-in-microsoft-edge" target="_blank" rel="noopener">Microsoft Edge</a></li>
   </ul>
-  <h2>5. Contatti</h2>
-  <p><a href="mailto:eurospazzacaminolodi@gmail.com">eurospazzacaminolodi@gmail.com</a> · Tel. <a href="tel:+393336453219">333 645 3219</a> · <a href="privacy.html">Privacy Policy</a> · <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">Garante Privacy</a></p>
+  <p>La revoca del consenso non pregiudica la liceit&agrave; del trattamento effettuato prima della revoca.</p>
+
+  <h2>9. Diritti dell'interessato e contatti</h2>
+  <p>Puoi esercitare i diritti previsti dagli artt. 15&ndash;22 GDPR (accesso, rettifica, cancellazione, limitazione, opposizione, portabilit&agrave;) scrivendo a <a href="mailto:eurospazzacaminolodi@gmail.com">eurospazzacaminolodi@gmail.com</a>. Hai inoltre diritto di proporre reclamo al <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">Garante per la protezione dei dati personali</a>.</p>
+  <p>Vedi anche la <a href="privacy.html">Privacy Policy</a>.</p>
 </div>
-<footer>© 2025 Verde Oliva S.r.l.s – P.IVA IT10927440965 · <a href="/">Home</a> · <a href="privacy.html">Privacy Policy</a></footer>
+<footer>&copy; 2026 Verde Oliva S.r.l.s &ndash; P.IVA IT10927440965 &middot; <a href="/">Home</a> &middot; <a href="privacy.html">Privacy Policy</a></footer>
+<script>
+(function(){
+  var b = document.getElementById('riapri-preferenze');
+  if (!b) return;
+  b.addEventListener('click', function(){
+    try { localStorage.removeItem('cookie_consent'); localStorage.removeItem('cc'); } catch(e){}
+    location.href = '/';   /* il banner vive in home: torno lì perché ricompaia */
+  });
+})();
+</script>
 </body></html>
