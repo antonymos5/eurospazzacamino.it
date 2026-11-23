@@ -571,7 +571,7 @@
 
 <script>
   (function(){
-    try{if(localStorage.getItem('cookie_consent'))document.getElementById('cookie-banner').style.display='none';}catch(e){}
+    try{if(localStorage.getItem('cookie_consent')||localStorage.getItem('cc'))document.getElementById('cookie-banner').style.display='none';}catch(e){}
   })();
   function accettaCookie(){
     try{localStorage.setItem('cookie_consent','all');}catch(e){}
